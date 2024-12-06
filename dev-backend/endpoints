@@ -1,0 +1,46 @@
+### Articles
+
+GET http://localhost:8080/api/articles/articles-with-sentiment
+GET http://localhost:8080/api/articles/category/{category}
+
+### Trends
+
+GET http://localhost:8080/api/trends/
+GET http://localhost:8080/api/trends/category/{category}
+
+### Register, login
+
+POST http://localhost:8080/api/users/register
+Content-Type: application/json
+
+{
+"username": "ivan",
+"email": "ivan@gmail.com",
+"password": "ivan",
+"confirmPassword": "ivan"
+}
+
+POST http://localhost:8080/api/users/login
+Content-Type: application/json
+
+{
+"username": "ivan",
+"password": "ivan"
+}
+
+### User read
+
+POST http://localhost:8080/api/articles/read?sentiment=positive
+Authorization: add token here "Bearer xxxxx"
+
+### User stats
+
+GET http://localhost:8080/api/users/stats
+Authorization: add token here "Bearer xxxxx"
+
+Response example:
+{
+"negative": 0,
+"neutral": 0,
+"positive": 2
+}
