@@ -4,6 +4,13 @@
 
 OmaNews is a Sentiment Analysis News Feed Application that enables users to explore and filter news articles based on sentiment (positive, neutral, or negative) and visualize trends over time.
 
+## Preview
+
+![Screenshot 2024-12-06 153223](https://github.com/user-attachments/assets/8ab2e471-f1e7-47b4-ad85-b2ac07db09c8)
+![Screenshot 2024-12-06 153244](https://github.com/user-attachments/assets/316a25db-76fe-4364-a1ee-7d8c99295a5b)
+![Screenshot 2024-12-06 153301](https://github.com/user-attachments/assets/c60a417f-2cf6-48ee-81da-768f2f93bc0c)
+
+
 ## Application Setup / Running Instructions
 
 1.  ### Clone the repo:
@@ -12,10 +19,10 @@ OmaNews is a Sentiment Analysis News Feed Application that enables users to expl
     -- git clone https://course-gitlab.tuni.fi/compse110-fall2024/three-dots.git
 
 2.  ### Backend Setup:
-    1. After cloning go to terminal, and use the following command: <br>
+    1. After cloning go to the terminal, and use the following command: <br>
        -- **cd dev-backend**
     2. Copy the EnvFileExample to .env and fill in the required values. .env file will be under the resources folder.
-    3. Build the project :Open the terminal and use the following command: <br>
+    3. Build the project:Open the terminal and use the following command: <br>
        -- **mvn clean install**
     4. You can run the backend server by clicking the run option for the DevBackendApplication file in your IDE, or by using the following command: <br>
        -- **mvn spring-boot:run**
